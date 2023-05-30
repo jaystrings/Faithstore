@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { getProductsByCategory } from "../api/api";
-import Productcard from "../components/Productcard";
+import Productcard from '../components/ProductCard'
 import Spinner from "../utils/spiner";
 
 export default function Products() {
