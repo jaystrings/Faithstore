@@ -5,7 +5,7 @@ import { formatCurrency } from "../utils/formatCurrency";
 import { useParams } from "react-router-dom";
 import { getAllProducts, getSingleProduct } from "../api/api";
 import Spinner from "../utils/Spiner";
-import ProductCard from "../components/Productcard";
+import ProductCard from "../components/ProductCard"
 import { useStateContext } from "../config/context";
 
 export default function Productdetail() {
