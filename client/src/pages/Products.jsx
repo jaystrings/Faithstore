@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { getProductsByCategory } from "../api/api";
 import Productcard from '../components/ProductCard'
-import Spinner from "../utils/spiner";
+import Spinner from '../utils/Spiner'
 
 export default function Products() {
   const { name } = useParams();
