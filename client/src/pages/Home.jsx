@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { getFeaturedProducts } from "../api/api";
 import { getAllProducts } from "../api/api";
 import ImageSlider from "../components/ImageSlider";
-import ProductCard from "../components/Productcard";
+import ProductCard from '../components/ProductCard'
 
 
 export default function Home() {
