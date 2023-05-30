@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Col, Container, Form, Image, Row } from "react-bootstrap";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { getProductBySearch } from "../api/api";
+import { getProductBySearch } from "./api/api";
 import Spinner from "../utils/Spiner";
 import { FiSearch } from "react-icons/fi"
 
